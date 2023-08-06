@@ -1,0 +1,26 @@
+.rv-header {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 79%;
+    height: 6rem;
+    gap: 20.5rem;
+    position: absolute;
+    z-index: 1;
+    left: 7%;
+    margin-left: 6rem;
+
+  .navlist {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: var(--zns-black);
+    }
+  }
+}
