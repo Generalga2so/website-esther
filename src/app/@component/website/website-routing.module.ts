@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { WebsiteComponent } from './website.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       { path: '', component: HeaderComponent },
       { path: '', component: HomeComponent },
+      {path: '', component: FooterComponent}
     ],
   },
 ];
