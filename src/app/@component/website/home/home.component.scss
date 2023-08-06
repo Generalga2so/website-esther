@@ -6,7 +6,7 @@
     height: 50rem;
     background-position: 100%;
     background-repeat: no-repeat;
-    width: 100%;
+    // width: 100%;
   }
 
   display: flex;
@@ -37,13 +37,20 @@
 
   .head-1,
   .head-2 {
-    padding: 0;
-    margin: 0;
+    // padding: 0;
+    // margin: 0;
     line-height: 3.5rem;
+    font-size: 72px;
+    width: 26rem;
+    
+  }
+ .paragraph{
+       font-size: 15px;
   }
 
   .btn {
-    width: 16.1875rem;
+    // width: 16.1875rem;
+    width:10.1875rem;
     border-radius: 5rem;
     margin-top: 3.5rem;
     border: none;
